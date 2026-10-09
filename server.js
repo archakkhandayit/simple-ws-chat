@@ -101,7 +101,7 @@ io.on("connection", (socket) => {
   });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 httpServer.listen(PORT, "0.0.0.0", () => {
   const localIp = getLocalIp();
   console.log(`\n🚀 Chat Server running!`);
